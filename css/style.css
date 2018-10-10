@@ -1,5 +1,6 @@
 body {
     background-color: rgb(225, 247, 247);
+    align-content: center;
 }
 header{
     background-color: aquamarine;
@@ -18,9 +19,20 @@ main{
     color: rgb(53, 10, 10);
 }
 img{
-    
-    height: 300px;
-    border-radius: 222px;
+    /* height: 300px;
+    border-radius: 222px; */
+    display: inline-block;
+    width: 16em;
+    margin: 1.4em;
+    border-radius: 4px;
+    background-color:rgb(228, 220, 220);
+    padding: 2.4em;
+    transition-property: background, border-radius;
+    transition-duration: .2s, 1s;
+    transition-timing-function: linear;
+}
+img:hover{
+    border-radius: 24%;
 }
 section.profile{
     text-align: center;    
