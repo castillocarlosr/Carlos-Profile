@@ -1,6 +1,5 @@
 body {
     background-color: rgb(225, 247, 247);
-    align-content: center;
 }
 header{
     background-color: aquamarine;
@@ -14,13 +13,14 @@ h1{
     font-family: fantasy;
     color: red;
 }
+h1:hover{
+    background-color: indigo;
+}
 main{
     font-size: 18px;
     color: rgb(53, 10, 10);
 }
 img{
-    /* height: 300px;
-    border-radius: 222px; */
     display: inline-block;
     width: 16em;
     margin: 1.4em;
@@ -60,13 +60,3 @@ footer{
     font-size: 20px;
     color: white;
 }
-/* #demoCode {
-    float: right;
-    background-image: url(../img/Screen\ Shot\ 2018-09-16\ at\ 10.01.18\ PM.png);
-    border-image-width: 100px;
-    top: 55px;
-    right: 0;
-    width: 300px;
-    height: 900px;
-    border: 3px solid #73AD21;
-} */

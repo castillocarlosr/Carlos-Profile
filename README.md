@@ -8,8 +8,9 @@ This profile was written in HTML, CSS, and Javascript only.
 ## Version
 
 - This Repo set-up on October 7, 2018
-- ~~Last update on October 07, 2018~~
-- Last update on October 08, 2018
+- ~~Last major update on October 07, 2018~~
+- ~~Last major update on October 08, 2018~~
+- Last update on October 10, 2018
 
 ## Authors
 
