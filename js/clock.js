@@ -1,16 +1,18 @@
+'use strict';
+
 $(function(){
     var props = 'transform WebkitTransform MozTransform OTransform msTransform'.split(' '),
         prop,
         el = document.createElement('div');
 
     for(var i = 0, l = props.length; i < l; i++) {
-        if(typeof el.style[props[i]] !== "undefined") {
+        if(typeof el.style[props[i]] !== 'undefined') {
             prop = props[i];
             break;
         }
     }
 
-    if(window.location.hash === "#clock") {
+    if(window.location.hash === '#clock') {
         startClock();
         $('p.start').remove();
     } else {

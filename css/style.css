@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(225, 247, 247);
+    background-image: url(../img/sandJelly.jpeg);
 }
 header{
     background-color: aquamarine;
@@ -18,7 +18,7 @@ h1:hover{
 }
 main{
     font-size: 18px;
-    color: rgb(53, 10, 10);
+    color: rgb(11, 11, 11);
 }
 #carlosProfile{
     display: inline-block;
@@ -43,6 +43,23 @@ section.profile{
     position : relative;
     z-index : 6; 
 }
+ol{
+    list-style-position: outside;
+    list-style-type: decimal;
+}
+ul{
+    list-style-position: outside;
+    list-style-type: square;
+}
+li{
+    margin-left: 12px;
+}
+footer{
+    background-image: url(../img/Sam1.jpg);
+    padding: 200px;
+    font-size: 20px;
+    color: white;
+}
 /*clock start*/
 .start {
     text-align: center;
@@ -52,17 +69,15 @@ section.profile{
 }
 #clock {
     position: relative;
-    width: 380px;
-    height: 380px;
+    width: 377px;
+    height: 377px;
     background-image: url('../img/clockFace.png');
-    left: 60%;
-    margin: 5em 0 0 -189px;
   }
   
 #clock div {
     position: absolute;
 }
-#clock img[src*='../img'] {
+#clock img[src*='second'] {
     -webkit-transition: -webkit-transform 600000s linear;
     -moz-transition: -moz-transform 600000s linear;
     -o-transition: -o-transform 600000s linear;
@@ -110,20 +125,4 @@ section.profile{
     transform: rotate(360deg);
 }
 /*end of clock*/
-ol{
-    list-style-position: outside;
-    list-style-type: decimal;
-}
-ul{
-    list-style-position: outside;
-    list-style-type: square;
-}
-li{
-    margin-left: 12px;
-}
-footer{
-    background-image: url(../img/Sam1.jpg);
-    padding: 200px;
-    font-size: 20px;
-    color: white;
-}
+
