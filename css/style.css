@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(225, 247, 247);
+    background-image: url(../img/sandJelly.jpeg);
 }
 header{
     background-color: aquamarine;
@@ -18,9 +18,9 @@ h1:hover{
 }
 main{
     font-size: 18px;
-    color: rgb(53, 10, 10);
+    color: rgb(11, 11, 11);
 }
-img{
+#carlosProfile{
     display: inline-block;
     width: 16em;
     margin: 1.4em;
@@ -31,7 +31,7 @@ img{
     transition-duration: .2s, 1s;
     transition-timing-function: linear;
 }
-img:hover{
+#carlosProfile:hover{
     border-radius: 24%;
 }
 section.profile{
@@ -60,3 +60,74 @@ footer{
     font-size: 20px;
     color: white;
 }
+/*clock start*/
+.start {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0 0 2em;
+}
+.seattleClock {
+    display: block;
+    margin-left: left;
+    margin-right: auto;
+}
+#clock {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-image: url('../img/clockFace.png');
+  }
+  
+#clock div {
+    position: absolute;
+}
+#clock img[src*='second'] {
+    -webkit-transition: -webkit-transform 600000s linear;
+    -moz-transition: -moz-transform 600000s linear;
+    -o-transition: -o-transform 600000s linear;
+    -ms-transition: -ms-transform 600000s linear;
+    transition: transform 600000s linear;
+}
+
+#clock:target img[src*='second'] {
+    -webkit-transform: rotate(3600000deg);
+    -moz-transform: rotate(3600000deg);
+    -o-transform: rotate(3600000deg);
+    -ms-transform: rotate(3600000deg);
+    transform: rotate(3600000deg);
+}
+
+#clock img[src*='minute'] {
+    -webkit-transition: -webkit-transform 360000s linear;
+    -moz-transition: -moz-transform 360000s linear;
+    -o-transition: -o-transform 360000s linear;
+    -ms-transition: -ms-transform 360000s linear;
+    transition: transform 360000s linear;
+}
+
+#clock:target img[src*='minute'] {
+    -webkit-transform: rotate(36000deg);
+    -moz-transform: rotate(36000deg);
+    -o-transform: rotate(36000deg);
+    -ms-transform: rotate(36000deg);
+    transform: rotate(36000deg);
+}
+
+#clock img[src*='hour'] {
+    -webkit-transition: -webkit-transform 216000s linear;
+    -moz-transition: -moz-transform 216000s linear;
+    -o-transition: -o-transform 216000s linear;
+    -ms-transition: -ms-transform 216000s linear;
+    transition: transform 216000s linear;
+}
+
+#clock:target img[src*='hour'] {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/*end of clock*/
+
