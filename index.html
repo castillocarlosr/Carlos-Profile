@@ -4,7 +4,6 @@
     <title>about ME!</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-    
 </head>
 <body>
     <header>
@@ -14,9 +13,20 @@
     <main>
         <section>
             <p class="profile">The life behind <b>Carlos R. Castillo</b>.</p>
-            <img src="img/carlosProfile.jpg" alt="A profile picture of Carlos Roberto Castillo"/>
+            <img id="carlosProfile" src="img/carlosProfile.jpg" alt="A profile picture of Carlos Roberto Castillo"/>
             <p class="profile">What do we know about the person that's already shaking the <em>coding world</em>!</p>
         </section>
+        <div class="wrapper">
+          
+    
+    <div id="experiment">
+        <p class="start"><a href="#clock" id="start">Start Clock</a></p>
+        <div id="clock">
+            <div id="hour"><img src="img/hourHand.png" /></div>
+            <div id="minute"><img src="img/minuteHand.png" /></div>
+            <div id="second"><img src="img/secondHand.png" /></div>
+        </div>
+    </div>
         <section>
             <h3>A chemist turned software developer.</h3>
             <ul>
@@ -58,6 +68,7 @@
     </footer>
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script src="/js/clock.js"></script>
 </body>
 </html>
 
